@@ -63,7 +63,7 @@
 #define TEMP_BED_PIN         2 //A2
 
 #define HEATER_0_PIN         3 //PE5
-#define TEMP_0_PIN           0 //A0
+#define TEMP_0_PIN           1 //A1 (HACK: original is 0 for A0)
 
 #define HEATER_1_PIN        -1
 #define TEMP_1_PIN           1 //A1
@@ -117,7 +117,7 @@
 #define SDCARDDETECT           15
 
 #define TACH_0                 79 // !!! changed from 81 (EINY03)
-#define TACH_1                 80 
+#define TACH_1                 80
 
 #define IR_SENSOR_PIN 62 //idler sensor @PK0 (digital pin 62/A8)
 
